@@ -13,7 +13,7 @@ def run_guessing_game
     elsif guess.to_i != random
       puts "You're incorrect!"
     else
-      puts "Invalid Input"
+      puts "Invalid input"
     end
   end
 end
