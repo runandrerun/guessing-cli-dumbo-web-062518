@@ -8,14 +8,12 @@ def run_guessing_game
     puts "You guessed the correct number!"
   elsif guess != random
     puts "You're incorrect!"
-  else
-    leave
+  else guess == "exit"
+    puts "Goodbye!"
   end
 end
 
 # Exit helper method
 
 def leave
-  puts "Goodbye!"
-end
-
+  p
