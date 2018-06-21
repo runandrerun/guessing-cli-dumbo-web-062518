@@ -5,6 +5,9 @@ def run_guessing_game
   guess = gets.chomp.to_i
   random = rand(1..6)
   if guess == random
-    puts
+    puts "You've guessed correct!"
+  else
+    puts "You're incorrect!"
+  end
 end
 
