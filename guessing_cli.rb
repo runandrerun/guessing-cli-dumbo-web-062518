@@ -13,7 +13,3 @@ def run_guessing_game
   end
 end
 
-# Exit helper method
-
-def leave
-  p
