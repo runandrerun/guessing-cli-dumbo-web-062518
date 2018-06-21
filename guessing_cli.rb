@@ -6,8 +6,16 @@ def run_guessing_game
   random = rand(1..6)
   if guess == random
     puts "You guessed the correct number!"
+  elsif guess == "exit"
+    leave
   else
     puts "You're incorrect!"
   end
+end
+
+# Exit helper method
+
+def leave
+  puts "Goodbye!"
 end
 
