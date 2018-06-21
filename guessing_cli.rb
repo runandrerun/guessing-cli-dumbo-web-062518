@@ -8,5 +8,13 @@ def run_guessing_game
     if guess == "exit"
       puts "Goodbye!"
       break
-    elsif
+    elsif guess.to_i == random
+      puts "You guessed the correct number!"
+    elsif guess.to_i != random
+      puts "You're incorrect!"
+    else
+      puts "Invalid Input"
+    end
+  end
+end
 
